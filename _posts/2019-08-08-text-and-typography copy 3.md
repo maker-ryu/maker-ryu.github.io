@@ -1,7 +1,7 @@
 ---
-title: 테스트 게시글
+title: 목조창고 만들기 1. 시청에 신고하기 인데 제목이 길면 어쩌지?
 author: cotes
-date: 2019-08-08 11:33:00 +0800
+date: 2020-11-20 01:07:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true

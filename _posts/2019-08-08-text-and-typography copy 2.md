@@ -1,7 +1,7 @@
 ---
-title: 테스트 게시글
+title: 창고 만들기, 왜 시작하게 되었을까?
 author: cotes
-date: 2019-08-08 11:33:00 +0800
+date: 2020-11-19 22:29:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
