@@ -1,14 +1,14 @@
 ---
-title: 테스트 게시글
-author: cotes
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+title: 개발자 블로그 1. Jekyll의 Chirpy테마로 깃허브 블로그 만들기
+author: 
+date: 2023-01-21 22:29:00 +0800
+categories: [블로그, 블로그 만들기]
+tags: [개발자 블로그]
 math: true
 mermaid: true
+pin : true
 image:
   path: /assets/img/profile.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 

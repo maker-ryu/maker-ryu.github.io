@@ -40,7 +40,7 @@ layout: page
 
 <div id="post-list">
   <div class="post-preview">
-    <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); grid-gap: 15px;">
+    <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); grid-gap: 25px;">
       
       {% for post in posts %}
       <div style="width: auto; height: 340px;">
@@ -50,7 +50,10 @@ layout: page
         <div style="height: 3%;"></div>
         <div style="height: 25%;">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
-          {% include datetime.html date=post.date %} 
+          {% include datetime.html date=post.date %}
+          {% if post.pin %}
+            <i class="fas fa-thumbtack fa-fw"></i>
+          {% endif %}
         </div>
       </div>
       {% endfor %}

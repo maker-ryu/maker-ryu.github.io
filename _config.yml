@@ -21,16 +21,16 @@ timezone: Asia/Seoul
 
 title: 일단질러보는성격                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 세상은 꿈꾸는 자의 것이라고   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  다양한 분야의 메이킹 프로젝트들을 진행하고, 모든 내용을 오픈소스로 정리해보고 있습니다. 필요하신 분들에게 도움이 되었으면 좋겠어요!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://maker-ryu.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: maker-ryu             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -38,12 +38,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: Siook Ryu
+  email: siook1239@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://github.com/maker-ryu       # change to your github homepage
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
