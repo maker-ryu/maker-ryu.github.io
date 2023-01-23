@@ -21,8 +21,6 @@ image:
 
 여기에 이미지를 추가해 보자
 
-![Screen Shot 2022-12-09 at 3.05.50 PM](../../images/2023-01-21-start-github-blog/Screen Shot 2022-12-09 at 3.05.50 PM.png)
-
 # H1 - heading
 
 <h2 data-toc-skip>H2 - heading</h2>
