@@ -1,21 +1,28 @@
 ---
 title: 개발자 블로그 1. Jekyll의 Chirpy테마로 깃허브 블로그 만들기
 author: 
-date: 2023-01-21 22:29:00 +0800
+date: 2023-01-22 22:29:00 +0800
 categories: [블로그, 블로그 만들기]
 tags: [개발자 블로그]
 math: true
 mermaid: true
-pin : true
+pin : false
 image:
-  path: /assets/img/profile.png
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  path: ../../images/2023-01-21-start-github-blog/thumnail.png
+  alt: 개발자 블로그 1. Jekyll의 Chirpy테마로 깃허브 블로그 만들기
 ---
 
-This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
 ## Titles
+
 ---
+
+
+
+여기에 이미지를 추가해 보자
+
+![Screen Shot 2022-12-09 at 3.05.50 PM](../../images/2023-01-21-start-github-blog/Screen Shot 2022-12-09 at 3.05.50 PM.png)
+
 # H1 - heading
 
 <h2 data-toc-skip>H2 - heading</h2>
