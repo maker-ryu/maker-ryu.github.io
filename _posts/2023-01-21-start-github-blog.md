@@ -8,7 +8,7 @@ math: true
 mermaid: true
 pin : false
 image:
-  path: ../images/2023-01-21-start-github-blog/thumnail.png
+  path: /images/2023-01-21-start-github-blog/thumnail.png
   alt: 개발자 블로그 1. Jekyll의 Chirpy테마로 깃허브 블로그 만들기
 ---
 
