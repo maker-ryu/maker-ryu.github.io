@@ -1,21 +1,22 @@
 ---
 title: 개발자 블로그 1. 깃허브 블로그를 시작해보자.
-date: 2023-01-22 22:29:00 +0800
+date: 2023-01-21 22:29:00 +0800
 categories: [블로그, 블로그 만들기]
 tags: [개발자 블로그]
 math: true
 mermaid: true
 pin : false
 image:
-  path: /images/2023-01-21-start-github-blog/thumnail.png
-  alt: 개발자 블로그 1. Jekyll로 깃허브 블로그 만들기
+  path: /images/2023-01-21-start-github-blog/thumbnail.png
+  alt: 개발자 블로그 1. 깃허브 블로그를 시작해보자.
 ---
+
+
+
 <!-- 소제목 -->
 > ## 깃허브 블로그의 시작.
 > 블로그를 시작하게 된 이유
 > {: style="color:gray; font-size: 85%; text-align: left;"}
-
-<br>
 
 사실 저는 <strong>'네이버 블로그'</strong>를 운영 하고 있었습니다.<br>
 나름 첫 게시글 업로드 기준으로 <strong>무려 10년(2013년 ~ 2023년)간</strong> 블로그 활동을 했었죠!😗
@@ -94,6 +95,8 @@ image:
 더 잘쓸 자신이 없기 때문에, 블로그를 만드는 법은 위의 잘 정리되어 있는 영상 또는 글들을 참고해주시면 되겠습니다.
 
 다만, 간단하게 블로그 생성 과정과 알게된점들을 공유해보도록 하겠습니다.😗
+
+
 
 <!-- 소제목 -->
 > ## 깃허브 블로그 템플릿 선정.
