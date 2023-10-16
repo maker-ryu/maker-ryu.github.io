@@ -22,9 +22,11 @@ ${{ secrets.OPENAPI_KEY }}
 response_json["response"]["body"]["items"]["item"]
 
 <script>
+  
+
 
   var request = new XMLHttpRequest();
-    request.open('GET', 'https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=${{ secrets.OPENAPI_KEY }}&pageNo=1&numOfRows=1&dataType=JSON&base_date=20231016&base_time=2000&nx=61&ny=126');
+    request.open('GET', 'https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey={{site.API_KEY}}&pageNo=1&numOfRows=1&dataType=JSON&base_date=20231016&base_time=2000&nx=61&ny=126');
     request.send();
     request.onload = function() {
       console.log(request.response);
