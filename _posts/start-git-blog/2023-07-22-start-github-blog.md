@@ -15,6 +15,30 @@ image:
 > 하려고 보니까 마음에 드는 템플릿이 없네..?!
 > {: style="color:gray; font-size: 85%; text-align: left;"}
 
+${{ secrets.OPENAPI_KEY }}
+
+
+
+response_json["response"]["body"]["items"]["item"]
+
+<script>
+
+  var request = new XMLHttpRequest();
+    request.open('GET', 'https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey={{ secrets.OPENAPI_KEY }}&pageNo=1&numOfRows=1&dataType=JSON&base_date=20231016&base_time=2000&nx=61&ny=126');
+    request.send();
+    request.onload = function() {
+      console.log(request.response);
+      res = JSON.parse(request.response);
+      console.log(res);
+      console.log(res.response.body.items.item[0].fcstValue);
+      document.getElementById("hello").innerHTML = res.response.body.items.item[0].category + " : " + res.response.body.items.item[0].fcstValue;
+      
+    }
+
+</script>
+
+<p id="hello"></p>
+
 이전 게시글에 정리했던 <u>블로그 템플릿을 선정하는 조건에 따라</u> 열심히 뒤적뒤적 해본 결과,  
 아쉽게도 제가 원하는 템플릿이 없었습니다.😹
 
