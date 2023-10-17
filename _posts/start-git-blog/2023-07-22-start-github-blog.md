@@ -18,14 +18,14 @@ image:
 
 <script>
 
-  // console.log(site.API_KEY | jsonify);
+  console.log(${{secrets.OPENAPI_KEY}});
 
-  // 환경 변수 값을 JavaScript 변수에 할당
-  var apiKey1 = "{{ site.OPENAPI_KEY | json | jsonify }}";
-  console.log("API1 Key:", apiKey1);
+  // // 환경 변수 값을 JavaScript 변수에 할당
+  // var apiKey1 = "{{ site.OPENAPI_KEY | json | jsonify }}";
+  // console.log("API1 Key:", apiKey1);
 
-  var apiKey2 = "{{ site.API_KEY | json | jsonify }}";
-  console.log("API2 Key:", apiKey2);
+  // var apiKey2 = "{{ site.API_KEY | json | jsonify }}";
+  // console.log("API2 Key:", apiKey2);
 
   // var request = new XMLHttpRequest();
   
