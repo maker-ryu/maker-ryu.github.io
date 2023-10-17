@@ -21,8 +21,11 @@ image:
   // console.log(site.API_KEY | jsonify);
 
   // 환경 변수 값을 JavaScript 변수에 할당
-  var apiKey = "{{ site.OPENAPI_KEY | json | jsonify }}";
-  console.log("API Key:", apiKey);
+  var apiKey1 = "{{ site.OPENAPI_KEY | json | jsonify }}";
+  console.log("API1 Key:", apiKey1);
+
+  var apiKey2 = "{{ site.API_KEY | json | jsonify }}";
+  console.log("API2 Key:", apiKey2);
 
   // var request = new XMLHttpRequest();
   
