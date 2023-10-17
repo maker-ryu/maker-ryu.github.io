@@ -15,27 +15,27 @@ image:
 > 하려고 보니까 마음에 드는 템플릿이 없네..?!
 > {: style="color:gray; font-size: 85%; text-align: left;"}
 
-${{ secrets.OPENAPI_KEY }}
-
-
-
-response_json["response"]["body"]["items"]["item"]
 
 <script>
+
+  // console.log(site.API_KEY | jsonify);
+
+  // 환경 변수 값을 JavaScript 변수에 할당
+  var apiKey = "{{ site.OPENAPI_KEY | json | jsonify }}";
+  console.log("API Key:", apiKey);
+
+  // var request = new XMLHttpRequest();
   
-
-
-  var request = new XMLHttpRequest();
-    request.open('GET', 'https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey={{site.API_KEY}}&pageNo=1&numOfRows=1&dataType=JSON&base_date=20231016&base_time=2000&nx=61&ny=126');
-    request.send();
-    request.onload = function() {
-      console.log(request.response);
-      res = JSON.parse(request.response);
-      console.log(res);
-      console.log(res.response.body.items.item[0].fcstValue);
-      document.getElementById("hello").innerHTML = res.response.body.items.item[0].category + " : " + res.response.body.items.item[0].fcstValue;
-      
-    }
+  // request.open('GET', 'https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=' + {{ site.API_KEY }} + '&pageNo=1&numOfRows=1&dataType=JSON&base_date=20231016&base_time=2000&nx=61&ny=126');
+  // request.send();
+  // request.onload = function() {
+  //   console.log(request.response);
+  //   res = JSON.parse(request.response);
+  //   console.log(process.env.TEST);
+  //   console.log(res.response.body.items.item[0].fcstValue);
+  //   document.getElementById("hello").innerHTML = res.response.body.items.item[0].category + " : " + res.response.body.items.item[0].fcstValue;
+  // 
+  // }
 
 </script>
 

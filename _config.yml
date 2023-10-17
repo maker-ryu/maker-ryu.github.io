@@ -112,8 +112,10 @@ assets:
     enabled:      # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
+
     env:          # [development|production]
-      API_KEY: ${{ secrets.OPENAPI_KEY }}
+      # API_KEY: abcd1234
+      # TEST: test
 
 pwa:
   enabled: true   # the option for PWA feature
