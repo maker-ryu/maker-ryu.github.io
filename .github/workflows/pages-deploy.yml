@@ -69,3 +69,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+    
+  env:
+      JEKYLL_ENV: production
+      API_KEY: ${{ secrets.OPEN_API_KEY }}
