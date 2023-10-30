@@ -1,6 +1,6 @@
 ---
-title: 고급 재단 테이블 만들기 01. 구상과 스케치, 설계까지
-date: 2023-10-01 05:04:00 +0800
+title: 고급 재단 테이블 만들기 03. 디테일 추가 및 마감작업 
+date: 2023-10-08 00:03:00 +0800
 categories: [메이킹 프로젝트, 고급 재단 테이블 만들기]
 tags: [고급 재단 테이블 만들기]
 math: true
@@ -8,7 +8,7 @@ mermaid: true
 pin : false
 image:
   path: https://drive.google.com/uc?export=view&id=1V3_RPCfNwKqUgYMw4pMBql63iLWMIstG
-  alt: 고급 재단 테이블 만들기 01. 구상과 스케치, 설계까지
+  alt: 고급 재단 테이블 만들기 03. 디테일 추가 및 마감작업 
 ---
 
 
