@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 일단질러보는성격                          # the main title
+title: 호기심 대마왕 공대생                          # the main title
 
 tagline: 세상은 꿈꾸는 자의 것이라고   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  다양한 분야의 메이킹 프로젝트들을 진행하고, 모든 내용을 오픈소스로 정리해보고 있습니다. 필요하신 분들에게 도움이 되었으면 좋겠어요!
+  과학 실험, 아두이노, 코딩, 목공, 메이킹 등 다양한 분야의 프로젝트들을 진행하고, 공부하거나 배운 내용들을 오픈소스로 정리해 둔 블로그 입니다. 필요하신 분들에게 도움이 되었으면 좋겠어요!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://maker-ryu.github.io'
@@ -86,7 +86,7 @@ theme_mode: dark  # [light|dark]
 img_cdn: 'https://drive.google.com/uc?export=view&id='
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/profile.png'
+avatar: 'https://drive.google.com/uc?export=view&id=15au12v9b2lE6rjuFDWCpXzb3HFJdnofZ'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
