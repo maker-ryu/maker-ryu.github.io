@@ -10,13 +10,27 @@ layout: page
     <span class="lead text-muted pl-2">{{ page.posts | size }}</span>
   </h1>
 
-  <ul class="post-content pl-0">
-    {% for post in page.posts %}
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span class="dash flex-grow-1"></span>
-      {% include datetime.html date=post.date wrap='span' class='text-muted small' %}
-    </li>
-    {% endfor %}
-  </ul>
+  <div id="post-list">
+    <div class="post-preview">
+      <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); grid-gap: 25px;">
+        
+        {% for post in page.posts %}
+        <div style="width: auto; height: 340px;">
+          <div style="height: 70%; position: relative; overflow: hidden;">
+            <img src="{{ post.image.path }}" alt="썸네일">
+          </div>
+          <div style="height: 3%;"></div>
+          <div style="height: 25%;">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+            {% include datetime.html date=post.date %}
+            {% if post.pin %}
+              <i class="fas fa-thumbtack fa-fw"></i>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div> <!-- #post-list -->
 </div>
